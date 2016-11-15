@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Machine:Root
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:Machine="http://fr.ubo.mde.robene.machine"
+    xsi:schemaLocation="http://fr.ubo.mde.robene.machine Machine.ecore">
+  <appareilReseau
+      Nom="RouteurUn"
+      IP="192.168.0.1"
+      MAC="BEDD85DH"
+      tableRoutage="//@machine.0 //@machine.1 //@serveur.0 //@appareilReseau.0"/>
+  <machine Nom="JeanBon-PC"
+      IP="192.168.0.56"
+      MAC="JHU5Y89V"
+      passerelle="//@appareilReseau.0"/>
+  <machine Nom="Pens&#xe9;esprofondes"
+      IP="192.168.0.42"
+      MAC="H2G2KFG7"
+      passerelle="//@appareilReseau.0"/>
+  <serveur Nom="Dormamou"
+      IP="192.168.0.23"
+      MAC="T1M3L0RD"
+      passerelle="//@appareilReseau.0"/>
+  <service Nom="marchander"/>
+</Machine:Root>
