@@ -20,4 +20,14 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="tableRoutage" upperBound="-1"
         eType="#//Machine"/>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Root">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="appareilReseau" upperBound="-1"
+        eType="#//AppareilReseau" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="machine" upperBound="-1"
+        eType="#//Client" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="serveur" upperBound="-1"
+        eType="#//Serveur" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="service" upperBound="-1"
+        eType="#//Service" containment="true"/>
+  </eClassifiers>
 </ecore:EPackage>
