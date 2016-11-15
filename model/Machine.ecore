@@ -2,19 +2,22 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Machine" nsURI="http://fr.ubo.mde.robene.machine" nsPrefix="Machine">
   <eClassifiers xsi:type="ecore:EClass" name="Machine" abstract="true">
-    <eOperations name="communiquer" eType="#//Machine"/>
+    <eOperations name="envoieMessage" eType="#//Machine"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nom" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="IP" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="MAC" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="tableRoutage" upperBound="-1"
-        eType="#//Machine"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="passerelle" eType="#//Machine"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Client" eSuperTypes="#//Machine"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Client" eSuperTypes="#//Machine">
+    <eOperations name="ecrireMessage" eType="#//Machine"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Serveur" eSuperTypes="#//Machine">
     <eStructuralFeatures xsi:type="ecore:EReference" name="propose" lowerBound="1"
         upperBound="-1" eType="#//Service"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Service"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AppareilReseau" eSuperTypes="#//Machine"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AppareilReseau" eSuperTypes="#//Machine">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tableRoutage" upperBound="-1"
+        eType="#//Machine"/>
+  </eClassifiers>
 </ecore:EPackage>
