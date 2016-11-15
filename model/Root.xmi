@@ -21,6 +21,7 @@
   <serveur Nom="Dormamou"
       IP="192.168.0.23"
       MAC="T1M3L0RD"
-      passerelle="//@appareilReseau.0"/>
+      passerelle="//@appareilReseau.0"
+      propose="//@service.0"/>
   <service Nom="marchander"/>
 </Machine:Root>
