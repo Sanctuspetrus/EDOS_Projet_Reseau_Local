@@ -266,7 +266,7 @@
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_wV9bwas0Eea5DbR3Q35RYA" routing="Rectilinear"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_wV9bwqs0Eea5DbR3Q35RYA" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wV9bw6s0Eea5DbR3Q35RYA" points="[0, 0, -562, 107]$[562, 0, 0, 107]$[562, -132, 0, -25]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wV9bw6s0Eea5DbR3Q35RYA" points="[0, 15, -562, 122]$[562, 15, 0, 122]$[562, -107, 0, 0]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wV-C1Ks0Eea5DbR3Q35RYA" id="(1.0,0.7142857142857143)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wV-C1as0Eea5DbR3Q35RYA" id="(0.2542372881355932,1.0)"/>
           </edges>
