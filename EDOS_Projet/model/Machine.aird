@@ -211,7 +211,7 @@
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_7O4X0asNEeaOC5lM1lixfQ" routing="Rectilinear"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_7O4X0qsNEeaOC5lM1lixfQ" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7O4X06sNEeaOC5lM1lixfQ" points="[0, 0, -230, 156]$[0, -115, -230, 41]$[171, -115, -59, 41]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7O4X06sNEeaOC5lM1lixfQ" points="[1, 0, -229, 156]$[1, -170, -229, -14]$[171, -170, -59, -14]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7_pGYKsNEeaOC5lM1lixfQ" id="(0.16666666666666666,0.01)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7O4-5asNEeaOC5lM1lixfQ" id="(0.41843971631205673,0.3602941176470588)"/>
           </edges>
@@ -567,7 +567,7 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uX69lKs7EeadPOrju6fYdg" red="255" green="252" blue="216"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_sE5LAKs7EeadPOrju6fYdg" name="Nom : EString" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@1326f27{platform:/resource/réseau%20local/model/Machine.ecore#//Service/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_sE5LAKs7EeadPOrju6fYdg" name="Nom : EString" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="Machine.ecore#//Service/Nom"/>
           <semanticElements xmi:type="ecore:EAttribute" href="Machine.ecore#//Service/Nom"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_uX-n8Ks7EeadPOrju6fYdg" labelAlignment="LEFT">
