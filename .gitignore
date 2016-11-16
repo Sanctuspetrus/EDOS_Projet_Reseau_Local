@@ -13,5 +13,8 @@ hs_err_pid*
 
 #eclipse
 .metadata
-src/*
-META-INF/*
+EDOS_Projet/src/*
+EDOS_Projet/META-INF/*
+EDOS_Projet.edit
+EDOS_Projet.editor
+EDOS_Projet.tests
