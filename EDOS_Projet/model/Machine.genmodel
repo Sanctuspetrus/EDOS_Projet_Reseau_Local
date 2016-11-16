@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
-    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/réseau local/src" modelPluginID="rseau_local"
-    modelName="Machine" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
-    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
-    operationReflection="true" importOrganizing="true">
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/EDOS_Projet/src" modelPluginID="EDOS_Projet" modelName="Machine"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="7.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
   <foreignModel>Machine.ecore</foreignModel>
   <genPackages prefix="Machine" disposableProviderFactory="true" ecorePackage="Machine.ecore#/">
     <genClasses image="false" ecoreClass="Machine.ecore#//Machine">
@@ -18,10 +17,20 @@
     </genClasses>
     <genClasses ecoreClass="Machine.ecore#//Serveur">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Machine.ecore#//Serveur/propose"/>
+      <genOperations ecoreOperation="Machine.ecore#//Serveur/lanceService"/>
     </genClasses>
-    <genClasses ecoreClass="Machine.ecore#//Service"/>
+    <genClasses ecoreClass="Machine.ecore#//Service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//Service/Nom"/>
+      <genOperations ecoreOperation="Machine.ecore#//Service/action"/>
+    </genClasses>
     <genClasses ecoreClass="Machine.ecore#//AppareilReseau">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Machine.ecore#//AppareilReseau/tableRoutage"/>
+    </genClasses>
+    <genClasses ecoreClass="Machine.ecore#//Root">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Machine.ecore#//Root/appareilReseau"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Machine.ecore#//Root/machine"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Machine.ecore#//Root/serveur"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Machine.ecore#//Root/service"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>
