@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Machine="http://fr.ubo.mde.robene.machine" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_bAhmwKzKEeaxJpOi3eWjVQ" selectedViews="_M-bvkKzLEeaxJpOi3eWjVQ" version="8.1.1">
+  <models xmi:type="Machine:Root" href="My.machine#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_hDensKzKEeaxJpOi3eWjVQ" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_hDjgMKzKEeaxJpOi3eWjVQ" name="diagramRoot">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_hDnxoKzKEeaxJpOi3eWjVQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_hDnxoazKEeaxJpOi3eWjVQ" type="Sirius" element="_hDjgMKzKEeaxJpOi3eWjVQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_v6-AYKzKEeaxJpOi3eWjVQ" type="2001" element="_v69ZUKzKEeaxJpOi3eWjVQ">
+            <children xmi:type="notation:Node" xmi:id="_v6-AY6zKEeaxJpOi3eWjVQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_v6-AZKzKEeaxJpOi3eWjVQ" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_v6-ncKzKEeaxJpOi3eWjVQ" type="3016" element="_v69ZUazKEeaxJpOi3eWjVQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_v6-ncazKEeaxJpOi3eWjVQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v6-ncqzKEeaxJpOi3eWjVQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v6-AYazKEeaxJpOi3eWjVQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v6-AYqzKEeaxJpOi3eWjVQ" x="550" y="240" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_29SzoKzKEeaxJpOi3eWjVQ" type="2001" element="_29RlgKzKEeaxJpOi3eWjVQ">
+            <children xmi:type="notation:Node" xmi:id="_29Szo6zKEeaxJpOi3eWjVQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_29SzpKzKEeaxJpOi3eWjVQ" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_29TasKzKEeaxJpOi3eWjVQ" type="3016" element="_29RlgazKEeaxJpOi3eWjVQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_29TasazKEeaxJpOi3eWjVQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_29TasqzKEeaxJpOi3eWjVQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_29SzoazKEeaxJpOi3eWjVQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_29SzoqzKEeaxJpOi3eWjVQ" x="310" y="220" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_hDnxoqzKEeaxJpOi3eWjVQ"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_v69ZUKzKEeaxJpOi3eWjVQ" name="Invalid feature as name" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Machine:AppareilReseau" href="My.machine#//@appareilReseau.0"/>
+        <semanticElements xmi:type="Machine:AppareilReseau" href="My.machine#//@appareilReseau.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_v69ZUazKEeaxJpOi3eWjVQ">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_v69ZUqzKEeaxJpOi3eWjVQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_v69ZU6zKEeaxJpOi3eWjVQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_v69ZVKzKEeaxJpOi3eWjVQ" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_29RlgKzKEeaxJpOi3eWjVQ" name="Invalid feature as name" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Machine:AppareilReseau" href="My.machine#//@appareilReseau.1"/>
+        <semanticElements xmi:type="Machine:AppareilReseau" href="My.machine#//@appareilReseau.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_29RlgazKEeaxJpOi3eWjVQ">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_29RlgqzKEeaxJpOi3eWjVQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_29Rlg6zKEeaxJpOi3eWjVQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_29RlhKzKEeaxJpOi3eWjVQ" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='diagramRoot']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_hDjgMazKEeaxJpOi3eWjVQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='']/@ownedRepresentations[name='diagramRoot']/@defaultLayer"/>
+      <target xmi:type="Machine:Root" href="My.machine#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_M-bvkKzLEeaxJpOi3eWjVQ" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_M-cWoKzLEeaxJpOi3eWjVQ" name="diagramRoot">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_M-c9sKzLEeaxJpOi3eWjVQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_M-c9sazLEeaxJpOi3eWjVQ" type="Sirius" element="_M-cWoKzLEeaxJpOi3eWjVQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_M-c9s6zLEeaxJpOi3eWjVQ" type="2001" element="_M-cWoazLEeaxJpOi3eWjVQ">
+            <children xmi:type="notation:Node" xmi:id="_M-c9tqzLEeaxJpOi3eWjVQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_M-c9t6zLEeaxJpOi3eWjVQ" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_M-dkxazLEeaxJpOi3eWjVQ" type="3016" element="_M-cWoqzLEeaxJpOi3eWjVQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_M-dkxqzLEeaxJpOi3eWjVQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M-dkx6zLEeaxJpOi3eWjVQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_M-c9tKzLEeaxJpOi3eWjVQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M-c9tazLEeaxJpOi3eWjVQ" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_M-dkwKzLEeaxJpOi3eWjVQ" type="2001" element="_M-cWpqzLEeaxJpOi3eWjVQ">
+            <children xmi:type="notation:Node" xmi:id="_M-dkw6zLEeaxJpOi3eWjVQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_M-dkxKzLEeaxJpOi3eWjVQ" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_M-eL0KzLEeaxJpOi3eWjVQ" type="3016" element="_M-cWp6zLEeaxJpOi3eWjVQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_M-eL0azLEeaxJpOi3eWjVQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M-eL0qzLEeaxJpOi3eWjVQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_M-dkwazLEeaxJpOi3eWjVQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M-dkwqzLEeaxJpOi3eWjVQ" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_M-c9sqzLEeaxJpOi3eWjVQ"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_M-cWoazLEeaxJpOi3eWjVQ" name="HELLOWWW" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Machine:AppareilReseau" href="My.machine#//@appareilReseau.0"/>
+        <semanticElements xmi:type="Machine:AppareilReseau" href="My.machine#//@appareilReseau.0"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_M-cWoqzLEeaxJpOi3eWjVQ">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_M-cWo6zLEeaxJpOi3eWjVQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_M-cWpKzLEeaxJpOi3eWjVQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_M-cWpazLEeaxJpOi3eWjVQ" red="252" green="175" blue="62"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_M-cWpqzLEeaxJpOi3eWjVQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Machine:AppareilReseau" href="My.machine#//@appareilReseau.1"/>
+        <semanticElements xmi:type="Machine:AppareilReseau" href="My.machine#//@appareilReseau.1"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_M-cWp6zLEeaxJpOi3eWjVQ">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_M-cWqKzLEeaxJpOi3eWjVQ"/>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_M-cWqazLEeaxJpOi3eWjVQ"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_M-cWqqzLEeaxJpOi3eWjVQ" red="252" green="175" blue="62"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_M-cWq6zLEeaxJpOi3eWjVQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']/@defaultLayer"/>
+      <target xmi:type="Machine:Root" href="My.machine#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
