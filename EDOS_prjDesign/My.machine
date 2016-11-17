@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Machine:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Machine="http://fr.ubo.mde.robene.machine">
-  <appareilReseau Nom="HELLOWWW" IP="zertyuijnbgvfdrtyhujhgfdsdetryghjhg" MAC="dxfgh"/>
-  <appareilReseau Nom="BYE" IP="drfthygjuhkhi" MAC="dszqfeghh"/>
-  <serveur Nom="leServ" IP="zaertyjguh" MAC="azedrtgy" propose="//@service.0"/>
-  <service Nom="babor"/>
-</Machine:Root>
