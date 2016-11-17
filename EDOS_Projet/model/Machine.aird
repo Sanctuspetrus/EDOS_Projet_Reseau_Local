@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_DuBnQKWQEeaYK4u_RVtm2Q" selectedViews="_EKgH4KWQEeaYK4u_RVtm2Q _Ep7O0KWQEeaYK4u_RVtm2Q _EqB8gKWQEeaYK4u_RVtm2Q _ErYAUKWQEeaYK4u_RVtm2Q" version="8.1.1">
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_DuBnQKWQEeaYK4u_RVtm2Q" selectedViews="_EKgH4KWQEeaYK4u_RVtm2Q _Ep7O0KWQEeaYK4u_RVtm2Q _EqB8gKWQEeaYK4u_RVtm2Q _ErYAUKWQEeaYK4u_RVtm2Q" version="8.1.1">
   <models xmi:type="ecore:EPackage" href="Machine.ecore#/"/>
-  <models xmi:type="genmodel:GenModel" href="Machine.genmodel#/"/>
-  <models xmi:type="ecore:EPackage" href="http://www.eclipse.org/emf/2002/Ecore#/"/>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_EKgH4KWQEeaYK4u_RVtm2Q" initialized="true">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_EWeuYKWQEeaYK4u_RVtm2Q" name=" class diagram">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_EXJcwKWQEeaYK4u_RVtm2Q" source="GMF_DIAGRAMS">
@@ -348,7 +346,7 @@
           <cache xmi:type="diagram:DiagramElementMapping2ModelElement" xmi:id="_M-lfUasEEeaOC5lM1lixfQ">
             <key xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
             <value xmi:type="diagram:ModelElement2ViewVariable" xmi:id="_Nia9cKsKEeaOC5lM1lixfQ">
-              <key xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/nom"/>
+              <key xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/Nom"/>
               <value xmi:type="diagram:ViewVariable2ContainerVariable" xmi:id="_NikHYKsKEeaOC5lM1lixfQ" key="_M-lfUKsEEeaOC5lM1lixfQ">
                 <value xmi:type="diagram:ContainerVariable2StyleDescription" xmi:id="_NikHYqsKEeaOC5lM1lixfQ" value="_NikHYasKEeaOC5lM1lixfQ">
                   <key xmi:type="ecore:EClass" href="Machine.ecore#//MachineAbs"/>
@@ -356,7 +354,7 @@
               </value>
             </value>
             <value xmi:type="diagram:ModelElement2ViewVariable" xmi:id="_NikHZ6sKEeaOC5lM1lixfQ">
-              <key xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/ip"/>
+              <key xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/IP"/>
               <value xmi:type="diagram:ViewVariable2ContainerVariable" xmi:id="_NikHaKsKEeaOC5lM1lixfQ" key="_PVK8MKsEEeaOC5lM1lixfQ">
                 <value xmi:type="diagram:ContainerVariable2StyleDescription" xmi:id="_NikHaqsKEeaOC5lM1lixfQ" value="_NikHaasKEeaOC5lM1lixfQ">
                   <key xmi:type="ecore:EClass" href="Machine.ecore#//MachineAbs"/>
@@ -364,7 +362,7 @@
               </value>
             </value>
             <value xmi:type="diagram:ModelElement2ViewVariable" xmi:id="_NikHb6sKEeaOC5lM1lixfQ">
-              <key xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/mac"/>
+              <key xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/MAC"/>
               <value xmi:type="diagram:ViewVariable2ContainerVariable" xmi:id="_NikHcKsKEeaOC5lM1lixfQ" key="_RcjfcKsEEeaOC5lM1lixfQ">
                 <value xmi:type="diagram:ContainerVariable2StyleDescription" xmi:id="_NikHcqsKEeaOC5lM1lixfQ" value="_NikHcasKEeaOC5lM1lixfQ">
                   <key xmi:type="ecore:EClass" href="Machine.ecore#//MachineAbs"/>
@@ -442,9 +440,9 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M-lfUKsEEeaOC5lM1lixfQ" name="nom : EString" tooltipText="">
-          <target xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/nom"/>
-          <semanticElements xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/nom"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M-lfUKsEEeaOC5lM1lixfQ" name="Nom : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/Nom"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/Nom"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_NikHY6sKEeaOC5lM1lixfQ" labelFormat="bold" labelAlignment="LEFT" description="_NikHYasKEeaOC5lM1lixfQ">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_NikHZKsKEeaOC5lM1lixfQ"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_NikHZasKEeaOC5lM1lixfQ"/>
@@ -452,9 +450,9 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_PVK8MKsEEeaOC5lM1lixfQ" name="ip : EString" tooltipText="">
-          <target xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/ip"/>
-          <semanticElements xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/ip"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_PVK8MKsEEeaOC5lM1lixfQ" name="IP : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/IP"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/IP"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_NikHa6sKEeaOC5lM1lixfQ" labelFormat="bold" labelAlignment="LEFT" description="_NikHaasKEeaOC5lM1lixfQ">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_NikHbKsKEeaOC5lM1lixfQ"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_NikHbasKEeaOC5lM1lixfQ"/>
@@ -462,9 +460,9 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_RcjfcKsEEeaOC5lM1lixfQ" name="mac : EString" tooltipText="">
-          <target xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/mac"/>
-          <semanticElements xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/mac"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_RcjfcKsEEeaOC5lM1lixfQ" name="MAC : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/MAC"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="Machine.ecore#//MachineAbs/MAC"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_NikHc6sKEeaOC5lM1lixfQ" labelFormat="bold" labelAlignment="LEFT" description="_NikHcasKEeaOC5lM1lixfQ">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_NikHdKsKEeaOC5lM1lixfQ"/>
             <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_NikHdasKEeaOC5lM1lixfQ"/>
@@ -569,9 +567,9 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_uX69lKs7EeadPOrju6fYdg" red="255" green="252" blue="216"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_sE5LAKs7EeadPOrju6fYdg" name="nom : EString" tooltipText="">
-          <target xmi:type="ecore:EAttribute" href="Machine.ecore#//Service/nom"/>
-          <semanticElements xmi:type="ecore:EAttribute" href="Machine.ecore#//Service/nom"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_sE5LAKs7EeadPOrju6fYdg" name="Nom : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="Machine.ecore#//Service/Nom"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="Machine.ecore#//Service/Nom"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_uX-n8Ks7EeadPOrju6fYdg" labelAlignment="LEFT">
             <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_uX-n8as7EeadPOrju6fYdg"/>
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>

@@ -10,8 +10,7 @@
       <!-- @generated Machine -->
       <package
             uri="http://fr.ubo.mde.robene.machine"
-            class="Machine.MachinePackage"
-            genModel="model/Machine.genmodel"/>
+            class="Machine.MachinePackage"/>
    </extension>
 
 </plugin>

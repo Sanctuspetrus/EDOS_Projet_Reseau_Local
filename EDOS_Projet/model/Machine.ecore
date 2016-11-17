@@ -3,9 +3,9 @@
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Machine" nsURI="http://fr.ubo.mde.robene.machine" nsPrefix="Machine">
   <eClassifiers xsi:type="ecore:EClass" name="MachineAbs" abstract="true">
     <eOperations name="envoieMessage" eType="#//MachineAbs"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ip" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mac" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nom" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="IP" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="MAC" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="passerelle" eType="#//MachineAbs"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Client" eSuperTypes="#//MachineAbs">
@@ -18,7 +18,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Service">
     <eOperations name="action"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AppareilReseau" eSuperTypes="#//MachineAbs">
     <eStructuralFeatures xsi:type="ecore:EReference" name="tableRoutage" upperBound="-1"
