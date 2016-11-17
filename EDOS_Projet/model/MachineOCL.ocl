@@ -12,7 +12,7 @@ inv NonNull_Nom('The \'Nom\' property of "' + self.toString() + '" is null'):
 
 
 context AppareilReseau
-inv constraintIP : IP.size() > 7
+inv constraintIP : IP.size() > 20
 
 
 endpackage
