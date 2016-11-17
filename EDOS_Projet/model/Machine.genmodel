@@ -5,12 +5,15 @@
     complianceLevel="7.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
   <foreignModel>Machine.ecore</foreignModel>
   <genPackages prefix="Machine" disposableProviderFactory="true" ecorePackage="Machine.ecore#/">
-    <genClasses image="false" ecoreClass="Machine.ecore#//Machine">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//Machine/Nom"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//Machine/IP"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//Machine/MAC"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Machine.ecore#//Machine/passerelle"/>
-      <genOperations ecoreOperation="Machine.ecore#//Machine/envoieMessage"/>
+    <genClasses image="false" ecoreClass="Machine.ecore#//MachineAbs">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//MachineAbs/nom"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//MachineAbs/ip1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//MachineAbs/mac"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Machine.ecore#//MachineAbs/passerelle"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//MachineAbs/ip2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//MachineAbs/ip3"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//MachineAbs/ip4"/>
+      <genOperations ecoreOperation="Machine.ecore#//MachineAbs/envoieMessage"/>
     </genClasses>
     <genClasses ecoreClass="Machine.ecore#//Client">
       <genOperations ecoreOperation="Machine.ecore#//Client/ecrireMessage"/>
@@ -20,7 +23,7 @@
       <genOperations ecoreOperation="Machine.ecore#//Serveur/lanceService"/>
     </genClasses>
     <genClasses ecoreClass="Machine.ecore#//Service">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//Service/Nom"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Machine.ecore#//Service/nom"/>
       <genOperations ecoreOperation="Machine.ecore#//Service/action"/>
     </genClasses>
     <genClasses ecoreClass="Machine.ecore#//AppareilReseau">

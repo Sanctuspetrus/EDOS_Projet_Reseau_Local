@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Machine:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Machine="http://fr.ubo.mde.robene.machine">
+  <appareilReseau nom="routeur" ip1="192" mac="12:34:56:78:90:12" ip2="168" ip3="12" ip4="254"/>
+  <machine nom="clientOK" ip1="192" mac="12:34:56:78:90:12" ip2="168" ip3="12" ip4="57"/>
+  <machine nom="clientIPOFF" ip1="-5" mac="12:34:56:BC:78:9A" ip2="258" ip3="35" ip4="65"/>
+  <machine nom="clientMACOFF" ip1="192" mac="je suis une fausse mac" ip2="168" ip3="12" ip4="50"/>
+  <serveur nom="DNS" ip1="192" mac="AB:CD:EF:01:23:45" ip2="168" ip3="12" ip4="250" propose="//@service.0"/>
+  <service nom="serviceDNS"/>
+</Machine:Root>
