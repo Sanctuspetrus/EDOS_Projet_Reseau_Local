@@ -2,14 +2,16 @@
 <Machine:Root
     xmi:version="2.0"
     xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:Machine="http://fr.ubo.mde.robene.machine"
-    xsi:schemaLocation="http://fr.ubo.mde.robene.machine Machine.ecore">
+    xmlns:Machine="http://fr.ubo.mde.robene.machine">
   <appareilReseau
       Nom="RouteurUn"
       IP="192.168.0.1"
       MAC="BEDD85DH"
       tableRoutage="//@machine.0 //@machine.1 //@serveur.0 //@appareilReseau.0"/>
+  <appareilReseau
+      Nom="Broken"
+      IP="casse"
+      MAC="BEDD85DH"/>
   <machine Nom="JeanBon-PC"
       IP="192.168.0.56"
       MAC="JHU5Y89V"

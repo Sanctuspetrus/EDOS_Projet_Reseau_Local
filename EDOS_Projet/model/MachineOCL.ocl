@@ -10,4 +10,9 @@ context MachineAbs
 inv NonNull_Nom('The \'Nom\' property of "' + self.toString() + '" is null'):
 	Nom <> null
 
+
+context AppareilReseau
+inv constraintIP : IP.size() > 20
+
+
 endpackage
