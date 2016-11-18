@@ -4,6 +4,11 @@
   <machine nom="clientOK" ip1="192" mac="12:34:56:78:90:12" ip2="168" ip3="12" ip4="57"/>
   <machine nom="clientIPOFF" ip1="-5" mac="12:34:56:BC:78:9A" ip2="258" ip3="35" ip4="65"/>
   <machine nom="clientMACOFF" ip1="192" mac="je suis une fausse mac" ip2="168" ip3="12" ip4="50"/>
-  <serveur nom="DNS" ip1="192" mac="AB:CD:EF:01:23:45" ip2="168" ip3="12" ip4="250" propose="//@service.0"/>
-  <service nom="serviceDNS"/>
+  <serveur nom="DNS" ip1="192" mac="AB:CD:EF:01:23:45" ip2="168" ip3="12" ip4="250">
+    <propose nom="serviceDNS"/>
+  </serveur>
+  <service nom="serviceDNSON"/>
+  <service nom="serviceDNSOFF"/>
+  <service nom="serviceDNSOFF"/>
+  <service nom="wazo"/>
 </Machine:Root>
