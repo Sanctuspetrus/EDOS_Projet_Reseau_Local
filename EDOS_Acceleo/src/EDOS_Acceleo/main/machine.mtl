@@ -1,0 +1,10 @@
+[comment encoding = UTF-8 /]
+[module machine('http://fr.ubo.mde.robene.machine')]
+
+
+[template public generateMachine(aRoot : Root)]
+[comment @main/]
+[file (aRoot.name, false, 'UTF-8')]
+
+[/file]
+[/template]
