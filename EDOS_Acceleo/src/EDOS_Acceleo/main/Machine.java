@@ -22,7 +22,10 @@ import org.eclipse.emf.common.util.BasicMonitor;
 import org.eclipse.emf.common.util.Monitor;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.resource.ResourceSet;
+
+import Machine.MachinePackage;
 
 /**
  * Entry point of the 'Machine' generation module.
@@ -335,11 +338,13 @@ public class Machine extends AbstractAcceleoGenerator {
      * 
      * @param resourceSet
      *            The resource set which registry has to be updated.
-     * @generated
+     * @generated NOT
      */
     @Override
     public void registerPackages(ResourceSet resourceSet) {
         super.registerPackages(resourceSet);
+        // Charge le package machine de machine.ecore
+        EPackage.Registry.INSTANCE.put(MachinePackage.eNS_URI, MachinePackage.eINSTANCE); 
         
         /*
          * If you want to change the content of this method, do NOT forget to change the "@generated"

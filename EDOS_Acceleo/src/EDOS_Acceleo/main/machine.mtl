@@ -4,7 +4,7 @@
 
 [template public generateMachine(aRoot : Root)]
 [comment @main/]
-[file (aRoot.name, false, 'UTF-8')]
+[file (aRoot., false, 'UTF-8')]
 
 [/file]
 [/template]
