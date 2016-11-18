@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Machine:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Machine="http://fr.ubo.mde.robene.machine">
-  <appareilReseau nom="appareil1" ip1="192" mac="12:34:56:78:90:12" ip2="168" ip4="256"/>
+  <appareilReseau nom="appaTest" ip1="152" mac=" 12:34:56:78:90:12" ip2="250" ip3="18" ip4="256"/>
 </Machine:Root>
