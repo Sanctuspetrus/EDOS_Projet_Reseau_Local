@@ -9,4 +9,5 @@
   <serveur nom="serveurVide"/>
   <service nom="service1"/>
   <service nom=""/>
+  <service/>
 </Machine:Root>

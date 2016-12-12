@@ -104,6 +104,17 @@
             <styles xmi:type="notation:ShapeStyle" xmi:id="_vIPWMcBCEeaUx7oHslhyNg" fontName="Segoe UI" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vIPWMsBCEeaUx7oHslhyNg" x="225" y="395" width="30" height="30"/>
           </children>
+          <children xmi:type="notation:Node" xmi:id="_XjBRAMBFEeahWuvk-dGmBg" type="2001" element="_XiuWEMBFEeahWuvk-dGmBg">
+            <children xmi:type="notation:Node" xmi:id="_XjBRA8BFEeahWuvk-dGmBg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XjBRBMBFEeahWuvk-dGmBg" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XjBRBcBFEeahWuvk-dGmBg" type="3016" element="_XiuWEcBFEeahWuvk-dGmBg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_XjBRBsBFEeahWuvk-dGmBg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XjBRB8BFEeahWuvk-dGmBg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XjBRAcBFEeahWuvk-dGmBg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XjBRAsBFEeahWuvk-dGmBg" x="901" y="243" width="30" height="30"/>
+          </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_J_UT1a1fEeaKkbqSBgsngA"/>
           <edges xmi:type="notation:Edge" xmi:id="__ufosMBAEeaUx7oHslhyNg" type="4001" element="__uC8xMBAEeaUx7oHslhyNg" source="_Ch3zcMA6EeaVD_LjDNOAqA" target="__uMGtcBAEeaUx7oHslhyNg">
             <children xmi:type="notation:Node" xmi:id="__ufotMBAEeaUx7oHslhyNg" type="6001">
@@ -281,6 +292,20 @@
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='Service']/@style"/>
           <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_vIFlM8BCEeaUx7oHslhyNg"/>
           <color xmi:type="viewpoint:RGBValues" xmi:id="_vIFlNMBCEeaUx7oHslhyNg" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='Service']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_XiuWEMBFEeahWuvk-dGmBg" name="Invalid feature as name" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Machine:Service" href="RootDesign.machine#//@service.2"/>
+        <semanticElements xmi:type="Machine:Service" href="RootDesign.machine#//@service.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_XiuWEcBFEeahWuvk-dGmBg">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_XiuWEsBFEeahWuvk-dGmBg"/>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='Service']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_XiuWE8BFEeahWuvk-dGmBg"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_XiuWFMBFEeahWuvk-dGmBg" red="136" green="136" blue="136"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/EDOS_Projet.design/description/EDOS_Projet.odesign#//@ownedViewpoints[name='ViewpointMachine']/@ownedRepresentations[name='diagramRoot']/@defaultLayer/@nodeMappings[name='Service']"/>
       </ownedDiagramElements>
