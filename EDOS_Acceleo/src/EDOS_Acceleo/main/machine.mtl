@@ -1,0 +1,37 @@
+[comment encoding = UTF-8 /]
+[module machine('http://fr.ubo.mde.robene.machine')]
+
+
+[template public generateMachine(aRoot : Root)]
+	[comment @main/]
+		[for (client : Client | aRoot.machine)]
+			[generateClient(client)/]
+		[/for]
+		[for (serv : Serveur | aRoot.serveur)]
+			[generateServeur(serv)/]
+		[/for]
+[/template]
+
+[template public generateClient(aClient : Client)]
+	[file ('clients/'.concat(aClient.nom), false, 'UTF-8')]
+Client : [aClient.nom/]
+IP : [aClient.ip1/].[aClient.ip2/].[aClient.ip3/].[aClient.ip4/]
+MAC : [aClient.mac/]
+Table de routage :
+[for (aRoute : MachineAbs | aClient.passerelle)]
+	- [aRoute.nom/]
+[/for]
+	[/file]
+[/template]
+
+[template public generateServeur(aServeur : Serveur)]
+	[file ('serveurs/'.concat(aServeur.nom), false, 'UTF-8')]
+Serveur : [aServeur.nom/]
+IP : [aServeur.ip1/].[aServeur.ip2/].[aServeur.ip3/].[aServeur.ip4/]
+MAC : [aServeur.mac/]
+Services :
+[for (aService : Service | aServeur.propose)]
+	- [aService.nom/]
+[/for]
+	[/file]
+[/template]
