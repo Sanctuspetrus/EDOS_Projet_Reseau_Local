@@ -2,6 +2,9 @@
 <Machine:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Machine="http://fr.ubo.mde.robene.machine">
   <appareilReseau nom="appaTest" ip1="152" mac="12:34:56:78:90:12" ip2="250" ip3="18" ip4="250"/>
   <appareilReseau nom="nom"/>
+  <appareilReseau nom="appareilReseauVide" passerelle="//@serveur.1" tableRoutage="//@machine.1"/>
   <machine nom="client de test" ip1="192" mac="12:34:56:78:90:12" ip2="168" ip3="12" ip4="57"/>
+  <machine nom="clientVide"/>
   <serveur nom="nom"/>
+  <serveur nom="serveurVide"/>
 </Machine:Root>
