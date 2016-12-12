@@ -7,8 +7,10 @@
   <serveur nom="DNS" ip1="192" mac="AB:CD:EF:01:23:45" ip2="168" ip3="12" ip4="250">
     <propose nom="serviceDNS"/>
   </serveur>
+  <serveur nom="serveurIPUsed" ip1="192" mac="23:85:94:A5:F6:62" ip2="168" ip3="12" ip4="50">
+    <propose nom="wazo"/>
+  </serveur>
   <service nom="serviceDNSON"/>
   <service nom="serviceDNSOFF"/>
   <service nom="serviceDNSOFF"/>
-  <service nom="wazo"/>
 </Machine:Root>
