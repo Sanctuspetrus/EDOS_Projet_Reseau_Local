@@ -25,7 +25,7 @@
           </style>
         </nodeMappings>
         <nodeMappings name="Service" domainClass="Machine.Service">
-          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+          <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:nom" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
@@ -94,7 +94,9 @@
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Machine.Service" referenceName="service"/>
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Machine.Service" referenceName="service">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="nom" valueExpression="serviceVide"/>
+                </subModelOperations>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
