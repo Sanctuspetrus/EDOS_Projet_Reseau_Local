@@ -17,6 +17,10 @@
 Client : [aClient.nom/]
 IP : [aClient.ip1/].[aClient.ip2/].[aClient.ip3/].[aClient.ip4/]
 MAC : [aClient.mac/]
+Table de routage :
+[for (aRoute : MachineAbs | aClient.passerelle)]
+	- [aRoute.nom/]
+[/for]
 	[/file]
 [/template]
 
