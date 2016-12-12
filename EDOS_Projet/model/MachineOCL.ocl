@@ -12,14 +12,15 @@ inv NonNull_Nom('The \'Nom\' property of "' + self.toString() + '" is null'):
 
 
 context MachineAbs
-inv constraintIP : (ip1 >= 0 and ip1 < 256) and (ip2 >= 0 and ip2 < 256) and (ip3 >= 0 and ip3 < 256) and (ip4 >= 0 and ip4 < 256)
+inv constraintIP('The \'IP\' property of "' + self.nom +'" is false'):
+	(ip1 >= 0 and ip1 < 256) and (ip2 >= 0 and ip2 < 256) and (ip3 >= 0 and ip3 < 256) and (ip4 >= 0 and ip4 < 256)
 
 context MachineAbs
 inv constraintUniqueIP('The \'IP\' property of "' + self.nom +'" is already used by an other Machine'):
 	MachineAbs.allInstances() -> forAll(machine | machine <> self implies ((machine.ip1 <> self.ip1)
 		or (machine.ip2 <> self.ip2) or (machine.ip3 <> self.ip3) or (machine.ip4 <> self.ip4))
-	
 	)
+	
 context MachineAbs
 inv constraintMAC('The \'MAC\' property of "' + self.nom +'" is false'):
 	mac.matches('^([0-9A-Fa-f]{2}[:]){5}([0-9A-Fa-f]{2})$')
