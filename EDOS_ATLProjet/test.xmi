@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="">
+  <Service nom="serviceDNS"/>
+  <Service nom="wazo"/>
+  <Service nom="serviceDNSON"/>
+  <Service nom="serviceDNSOFF"/>
+  <Service nom="serviceDNSOFF"/>
+  <Client nom="clientOK">
+  	<accede nom="serviceDNS"/>
+  	<accede nom="wazo"/>
+  </Client>
+  <Client nom="clientIPOFF">
+  	<accede nom="serviceDNS"/>
+  	<accede nom="wazo"/>
+  </Client>
+  <Client nom="clientMACOFF">
+  	<accede nom="serviceDNS"/>
+  	<accede nom="wazo"/>
+  </Client>
+</xmi:XMI>

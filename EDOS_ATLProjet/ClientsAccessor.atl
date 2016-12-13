@@ -4,3 +4,29 @@
 module ClientsAccessor;
 create OUT : MM1 from IN : MM;
 
+
+rule copyServices{
+	from
+		s : MM!Service
+	to
+		t : MM1!Service(
+			nom <- s.nom
+		)
+}
+
+
+rule machineToClient{
+	from
+		s : MM!Client
+	to
+		t : MM1!Client(
+			nom <- s.nom,
+			accede <-
+				Sequence{
+					Set(MM!Serveur.allInstances().propose);
+					
+				}
+			
+		)
+		
+}
