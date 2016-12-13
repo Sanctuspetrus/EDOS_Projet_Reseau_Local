@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Machine:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Machine="http://fr.ubo.mde.robene.machine">
-  <appareilReseau nom="appaTest" ip1="152" mac="12:34:56:78:90:12" ip2="250" ip3="18" ip4="250"/>
-  <appareilReseau nom="nom"/>
-  <appareilReseau nom="appareilReseauVide" passerelle="//@serveur.1" tableRoutage="//@machine.1"/>
-  <machine nom="client de test" ip1="192" mac="12:34:56:78:90:12" ip2="168" ip3="12" ip4="57"/>
-  <machine nom="clientVide"/>
-  <serveur nom="nom"/>
-  <serveur nom="serveurVide"/>
-  <service nom=""/>
+  <appareilReseau nom="Routeur mal configuré" ip1="152" mac="TODO" passerelle="//@appareilReseau.1" ip2="250" ip3="18" ip4="-5"/>
+  <appareilReseau nom="Super Routeur" ip1="192" mac="8D:56:FE:AC:FE:AC" passerelle="//@appareilReseau.4" ip2="168" ip3="2" ip4="1" tableRoutage="//@serveur.0 //@serveur.1 //@appareilReseau.2 //@appareilReseau.3 //@appareilReseau.0"/>
+  <appareilReseau nom="Routeur Multimedia" ip1="192" mac="8D:56:AD:CE:FE:AC" passerelle="//@appareilReseau.1" ip2="168" ip4="1" tableRoutage="//@serveur.1"/>
+  <appareilReseau nom="Routeur Client" ip1="192" mac="8D:EF:FE:AC:FE:AC" passerelle="//@appareilReseau.1" ip2="168" ip3="1" ip4="1" tableRoutage="//@machine.1 //@machine.0"/>
+  <appareilReseau nom="Internet" tableRoutage="//@appareilReseau.1"/>
+  <machine nom="client2" ip1="192" mac="12:34:56:78:90:12" passerelle="//@appareilReseau.3" ip2="168" ip3="1" ip4="57"/>
+  <machine nom="client1" ip1="192" mac="EC:DC:48:6F:23:23" passerelle="//@appareilReseau.3" ip2="168" ip3="1" ip4="4"/>
+  <serveur nom="ServeurBanque" ip1="192" mac="8D:56:FE:AC:FE:DC" passerelle="//@appareilReseau.1" ip2="168" ip3="2" ip4="168">
+    <propose nom="Compte"/>
+  </serveur>
+  <serveur nom="ServeurMedia" ip1="192" mac="EF:EZ:SD:9G:78" passerelle="//@appareilReseau.2" ip2="168" ip4="26">
+    <propose nom="Jeux"/>
+    <propose nom="Musique"/>
+    <propose nom="Video"/>
+  </serveur>
 </Machine:Root>

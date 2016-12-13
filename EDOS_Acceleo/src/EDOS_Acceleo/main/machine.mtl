@@ -10,6 +10,9 @@
 		[for (serv : Serveur | aRoot.serveur)]
 			[generateServeur(serv)/]
 		[/for]
+		[for (apres : AppareilReseau | aRoot.appareilReseau)]
+			[generateAppareilReseau(apres)/]
+		[/for]
 [/template]
 
 [template public generateClient(aClient : Client)]
@@ -17,10 +20,7 @@
 Client : [aClient.nom/]
 IP : [aClient.ip1/].[aClient.ip2/].[aClient.ip3/].[aClient.ip4/]
 MAC : [aClient.mac/]
-Table de routage :
-[for (aRoute : MachineAbs | aClient.passerelle)]
-	- [aRoute.nom/]
-[/for]
+Passerelle : [aClient.passerelle.nom/]
 	[/file]
 [/template]
 
@@ -29,9 +29,23 @@ Table de routage :
 Serveur : [aServeur.nom/]
 IP : [aServeur.ip1/].[aServeur.ip2/].[aServeur.ip3/].[aServeur.ip4/]
 MAC : [aServeur.mac/]
+Passerelle : [aServeur.passerelle.nom/]
 Services :
 [for (aService : Service | aServeur.propose)]
 	- [aService.nom/]
+[/for]
+	[/file]
+[/template]
+
+[template public generateAppareilReseau(aAppareilReseau : AppareilReseau)]
+	[file ('appareilreseaux/'.concat(aAppareilReseau.nom), false, 'UTF-8')]
+Serveur : [aAppareilReseau.nom/]
+IP : [aAppareilReseau.ip1/].[aAppareilReseau.ip2/].[aAppareilReseau.ip3/].[aAppareilReseau.ip4/]
+MAC : [aAppareilReseau.mac/]
+Passerelle : [aAppareilReseau.passerelle.nom/]
+Table de routage :
+[for (aMachine : MachineAbs | aAppareilReseau.tableRoutage)]
+	- [aMachine.nom/]
 [/for]
 	[/file]
 [/template]
