@@ -23,8 +23,7 @@ rule machineToClient{
 			nom <- s.nom,
 			accede <-
 				Sequence{
-					Set(MM!Serveur.allInstances().propose);
-					
+					Set{MM1!Service}
 				}
 			
 		)

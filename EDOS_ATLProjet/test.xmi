@@ -5,16 +5,7 @@
   <Service nom="serviceDNSON"/>
   <Service nom="serviceDNSOFF"/>
   <Service nom="serviceDNSOFF"/>
-  <Client nom="clientOK">
-  	<accede nom="serviceDNS"/>
-  	<accede nom="wazo"/>
-  </Client>
-  <Client nom="clientIPOFF">
-  	<accede nom="serviceDNS"/>
-  	<accede nom="wazo"/>
-  </Client>
-  <Client nom="clientMACOFF">
-  	<accede nom="serviceDNS"/>
-  	<accede nom="wazo"/>
-  </Client>
+  <Client nom="clientOK"/>
+  <Client nom="clientIPOFF"/>
+  <Client nom="clientMACOFF"/>
 </xmi:XMI>
