@@ -77,6 +77,15 @@
           <children xmi:type="notation:Node" xmi:id="_sRUF8KsFEeaOC5lM1lixfQ" type="2003" element="_sRK8AKsFEeaOC5lM1lixfQ">
             <children xmi:type="notation:Node" xmi:id="_sRUF86sFEeaOC5lM1lixfQ" type="5007"/>
             <children xmi:type="notation:Node" xmi:id="_sRUF9KsFEeaOC5lM1lixfQ" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_YcwmQMESEeaL4JptfoqL7w" type="3010" element="_Yb0yIMESEeaL4JptfoqL7w">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_YcwmQcESEeaL4JptfoqL7w"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_aDTtUMESEeaL4JptfoqL7w" type="3010" element="_aC-WIMESEeaL4JptfoqL7w">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_aDTtUcESEeaL4JptfoqL7w"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_gRnpsMESEeaL4JptfoqL7w" type="3010" element="_gRML4MESEeaL4JptfoqL7w">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gRnpscESEeaL4JptfoqL7w"/>
+              </children>
               <styles xmi:type="notation:SortingStyle" xmi:id="_sRUF9asFEeaOC5lM1lixfQ"/>
               <styles xmi:type="notation:FilteringStyle" xmi:id="_sRUF9qsFEeaOC5lM1lixfQ"/>
             </children>
@@ -647,6 +656,39 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_Vzk-hKsOEeaOC5lM1lixfQ" red="255" green="252" blue="216"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Yb0yIMESEeaL4JptfoqL7w" name="résoudreIP()" tooltipText="résoudreIP()">
+          <target xmi:type="ecore:EOperation" href="Machine.ecore#//AppareilReseau/résoudreIP"/>
+          <semanticElements xmi:type="ecore:EOperation" href="Machine.ecore#//AppareilReseau/résoudreIP"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Yb2nUMESEeaL4JptfoqL7w" labelAlignment="LEFT">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_Yb2nUcESEeaL4JptfoqL7w"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_Yb2nUsESEeaL4JptfoqL7w"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="_Yb2nU8ESEeaL4JptfoqL7w"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_aC-WIMESEeaL4JptfoqL7w" name="résoudreNom()" tooltipText="résoudreNom()">
+          <target xmi:type="ecore:EOperation" href="Machine.ecore#//AppareilReseau/résoudreNom"/>
+          <semanticElements xmi:type="ecore:EOperation" href="Machine.ecore#//AppareilReseau/résoudreNom"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_aC-9MMESEeaL4JptfoqL7w" labelAlignment="LEFT">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_aC-9McESEeaL4JptfoqL7w"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_aC-9MsESEeaL4JptfoqL7w"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="_aC-9M8ESEeaL4JptfoqL7w"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_gRML4MESEeaL4JptfoqL7w" name="services()" tooltipText="services()">
+          <target xmi:type="ecore:EOperation" href="Machine.ecore#//AppareilReseau/services"/>
+          <semanticElements xmi:type="ecore:EOperation" href="Machine.ecore#//AppareilReseau/services"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_gRML4cESEeaL4JptfoqL7w" labelAlignment="LEFT">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_gRML4sESEeaL4JptfoqL7w"/>
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_gRML48ESEeaL4JptfoqL7w"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="_gRML5MESEeaL4JptfoqL7w"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_0kYIUKsFEeaOC5lM1lixfQ" sourceNode="_sRK8AKsFEeaOC5lM1lixfQ" targetNode="_sZgtAKWREeaYK4u_RVtm2Q">
         <target xmi:type="ecore:EClass" href="Machine.ecore#//AppareilReseau"/>
