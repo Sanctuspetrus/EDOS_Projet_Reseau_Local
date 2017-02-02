@@ -1,0 +1,31 @@
+-- @path MM=/EDOS_Projet/model/Machine.ecore
+-- @path MM1=/EDOS_Projet/model/ClientsAccess.ecore
+
+module ClientsAccessor;
+create OUT : MM1 from IN : MM;
+
+
+rule copyServices{
+	from
+		s : MM!Service
+	to
+		t : MM1!Service(
+			nom <- s.nom
+		)
+}
+
+
+rule machineToClient{
+	from
+		s : MM!Client
+	to
+		t : MM1!Client(
+			nom <- s.nom,
+			accede <-
+				Sequence{
+					Set{MM1!Service}
+				}
+			
+		)
+		
+}
